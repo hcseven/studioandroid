@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/textview_customize"
+    tools:context=".AddBookFragment">
+
+
+    <EditText
+        android:id="@+id/addbook_bookname"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:hint="Book Name"
+        android:padding="3dp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/addbook_writername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:hint="Writer Name"
+        android:padding="3dp"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/addbook_edition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:hint="Edition"
+        android:padding="3dp"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/addbook_booktype"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:popupBackground="@color/white"
+        android:entries="@array/booktype"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/addbook_numberofpages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:hint="Number of Pages"
+        android:inputType="number"
+        android:padding="3dp"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/addbook_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:textAlignment="center"
+        android:text="Your Point : 5"
+        />
+
+    <SeekBar
+        android:id="@+id/seekbar_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/white"
+        android:inputType="number"
+        android:max="10"
+        android:progress="5" />
+
+    <CheckBox
+        android:id="@+id/chkbox_read"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="370dp"
+        android:background="#4BD651"
+        android:text="Read"
+        android:textSize="36dp" />
+
+    <CheckBox
+        android:background="#AEBD1A"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="180dp"
+        android:id="@+id/chkbox_willread"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Will read"
+        android:textSize="36dp"
+        />
+
+    <Button
+        android:text="Add Book"
+        android:id="@+id/addbook_AddButton"
+        android:background="@color/white"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="440dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+    android:padding="3dp"
+    >
+
+    <TextView
+        android:id="@+id/booktype_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="Science-Technology"
+        />
+
+    <TextView
+        android:id="@+id/booktype_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:layout_marginLeft="7dp"
+        android:text="200 Kitap"
+        android:layout_toRightOf="@id/booktype_name"
+         />
+</RelativeLayout>

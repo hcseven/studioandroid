@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="booktype" >
+        <item>Choose Book Type</item>
+        <item>History</item>
+        <item>Novel</item>
+        <item>Research</item>
+        <item>Science-Fiction</item>
+        <item>Fantastic</item>
+        <item>Philosophy</item>
+        <item>Politics</item>
+        <item>Biography</item>
+        <item>Remembrance</item>
+        <item>Science-Technology</item>
+        <item>Poetry</item>
+        <item>Scenario</item>
+        <item>Commic Book</item>
+        <item>Theatre</item>
+        <item>Art</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/deneme1" android:title="Add">
+        <menu>
+            <item android:title="Add Note" android:id="@+id/addmenu_note"/>
+            <item android:title="Add Quote" android:id="@+id/addmenu_quote"/>
+            <item android:title="Add Review" android:id="@+id/addmenu_review"/>
+        </menu>
+    </item>
+    <item android:id="@+id/deneme2" android:title="Show">
+        <menu>
+            <item android:title="Just Notes" android:id="@+id/showmenu_note"/>
+            <item android:title="Just Quote" android:id="@+id/showmenu_quote"/>
+            <item android:title="Just Review" android:id="@+id/showmenu_review"/>
+        </menu>
+    </item>
+
+</menu>

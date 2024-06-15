@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Books" android:id="@+id/nav_Home" android:icon="@drawable/baseline_book_24"/>
+    <item android:title="Add Book" android:id="@+id/nav_AddBook" android:icon="@drawable/baseline_addnote_24"/>
+    <item android:title="Profile" android:id="@+id/nav_Profile" android:icon="@drawable/baseline_account_circle_24" />
+</menu>
